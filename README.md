@@ -17,3 +17,14 @@ WHERE id NOT IN (
     
 )
 
+2) Most Profitable Companies
+
+https://platform.stratascratch.com/coding/10354-most-profitable-companies?code_type=1
+
+SELECT company , profits AS profit
+
+FROM forbes_global_2010_2014
+
+ORDER BY profit DESC
+
+LIMIT 3
